@@ -13,36 +13,18 @@
     <link rel="apple-touch-icon" href="https://i.imgur.com/QRAUqs9.png">
     <link rel="shortcut icon" href="https://i.imgur.com/QRAUqs9.png">
 
-    <link rel = "stylesheet" type = "text/css" href = "<?php echo base_url(); ?>assets/css/normalize.min.css">
-    <link rel = "stylesheet" type = "text/css" href = "<?php echo base_url(); ?>assets/css/bootstrap.min.css">
-    <link rel = "stylesheet" type = "text/css" href = "<?php echo base_url(); ?>assets/css/font-awesome.min.css">
-    <link rel = "stylesheet" type = "text/css" href = "<?php echo base_url(); ?>assets/css/themify-icons.css">
-    <link rel = "stylesheet" type = "text/css" href = "<?php echo base_url(); ?>assets/css/pe-icon-7-stroke.min.css">
-    <link rel = "stylesheet" type = "text/css" href = "<?php echo base_url(); ?>assets/css/flag-icon.min.css">
-    <link rel = "stylesheet" type = "text/css" href = "<?php echo base_url(); ?>assets/css/cs-skin-elastic.css">
-    <link rel = "stylesheet" type = "text/css" href = "<?php echo base_url(); ?>assets/css/lib/datatable/dataTables.bootstrap.min.css">
-    <link rel = "stylesheet" type = "text/css" href = "<?php echo base_url(); ?>assets/css/style.css">
+    <!-- echo base error  -->
 
-    <link href="<?php echo base_url() ?>assets/css/normalize.min.css" rel="stylesheet">
-    <link href="<?php echo base_url() ?>assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="<?php echo base_url() ?>assets/css/font-awesome.min.css" rel="stylesheet">
-    <link href="<?php echo base_url() ?>assets/css/themify-icons.css" rel="stylesheet">
-    <link href="<?php echo base_url() ?>assets/css/pe-icon-7-stroke.min.css" rel="stylesheet">
-    <link href="<?php echo base_url() ?>assets/css/flag-icon.min.css" rel="stylesheet">
-    <link href="<?php echo base_url() ?>assets/css/cs-skin-elastic.css" rel="stylesheet">
-    <link href="<?php echo base_url() ?>assets/css/lib/datatable/dataTables.bootstrap.min.css" rel="stylesheet">
-    <link href="<?php echo base_url() ?>assets/css/style.css" rel="stylesheet">
+    <link href="<?php echo base_url('assets/css/normalize.min.css') ?>" rel="stylesheet">
+    <link href="<?php echo base_url('assets/css/bootstrap.min.css') ?>" rel="stylesheet">
+    <link href="<?php echo base_url('assets/css/font-awesome.min.css') ?>" rel="stylesheet">
+    <link href="<?php echo base_url('assets/css/themify-icons.css') ?>" rel="stylesheet">
+    <link href="<?php echo base_url('assets/css/pe-icon-7-stroke.min.css') ?>" rel="stylesheet">
+    <link href="<?php echo base_url('assets/css/flag-icon.min.css') ?>" rel="stylesheet">
+    <link href="<?php echo base_url('assets/css/cs-skin-elastic.css') ?>" rel="stylesheet">
+    <link href="<?php echo base_url('assets/css/lib/datatable/dataTables.bootstrap.min.css') ?>" rel="stylesheet">
+    <link href="<?php echo base_url('assets/css/style.css') ?>" rel="stylesheet">
 
-    <!--  
-    <link rel="stylesheet" href="/assets/css/normalize.min.css">
-    <link rel="stylesheet" href="/SIPEJA/application/views/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/SIPEJA/application/views/assets/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/SIPEJA/application/views/assets/css/themify-icons.css">
-    <link rel="stylesheet" href="/SIPEJA/application/views/assets/css/pe-icon-7-stroke.min.css">
-    <link rel="stylesheet" href="/SIPEJA/application/views/assets/css/flag-icon.min.css">
-    <link rel="stylesheet" href="/SIPEJA/application/views/assets/css/cs-skin-elastic.css">
-    <link rel="stylesheet" href="/SIPEJA/application/views/assets/css/lib/datatable/dataTables.bootstrap.min.css">
-    <link rel="stylesheet" href="/SIPEJA/application/views/assets/css/style.css">
     -->
 
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
@@ -674,16 +656,16 @@
     <script src="/assets/js/main.js"></script>
 
 
-    <script src="/assets/js/lib/data-table/datatables.min.js"></script>
-    <script src="/assets/js/lib/data-table/dataTables.bootstrap.min.js"></script>
-    <script src="/assets/js/lib/data-table/dataTables.buttons.min.js"></script>
-    <script src="/assets/js/lib/data-table/buttons.bootstrap.min.js"></script>
-    <script src="/assets/js/lib/data-table/jszip.min.js"></script>
-    <script src="/assets/js/lib/data-table/vfs_fonts.js"></script>
-    <script src="/assets/js/lib/data-table/buttons.html5.min.js"></script>
-    <script src="/assets/js/lib/data-table/buttons.print.min.js"></script>
-    <script src="/assets/js/lib/data-table/buttons.colVis.min.js"></script>
-    <script src="/assets/js/init/datatables-init.js"></script>
+    <script src="<?php echo base_url('/assets/js/lib/data-table/datatables.min.js');   ?>"></script>
+    <script src="<?php echo base_url('/assets/js/lib/data-table/dataTables.bootstrap.min.js');   ?>"></script>
+    <script src="<?php echo base_url('/assets/js/lib/data-table/dataTables.buttons.min.js');   ?>"></script>
+    <script src="<?php echo base_url('/assets/js/lib/data-table/buttons.bootstrap.min.js');   ?>"></script>
+    <script src="<?php echo base_url('/assets/js/lib/data-table/jszip.min.js');   ?>"></script>
+    <script src="<?php echo base_url('/assets/js/lib/data-table/vfs_fonts.js');   ?>"></script>
+    <script src="<?php echo base_url('/assets/js/lib/data-table/buttons.html5.min.js');   ?>"></script>
+    <script src="<?php echo base_url('/assets/js/lib/data-table/buttons.print.min.js');   ?>"></script>
+    <script src="<?php echo base_url('/assets/js/lib/data-table/buttons.colVis.min.js');   ?>"></script>
+    <script src="<?php echo base_url('/assets/js/init/datatables-init.js');   ?>"></script>
 
 
     <script type="text/javascript">
